@@ -2,7 +2,7 @@
 <extension id="maintenance_mode" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
 	<name>Maintenance Mode</name>
 	<description>Temporarily close your site for maintenance</description>
-	<repo type="github">https://github.com/symphonycms/maintenance_mode</repo>
+	<repo type="github">https://github.com/animaux/maintenance_mode</repo>
 	<url type="discuss">https://getsymphony.com/discuss/thread/32797/</url>
 	<types>
 		<type>Workflow</type>
@@ -15,6 +15,9 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="1.9.5" date="2021-12-14" min="2.7.10" max="2.x.x">
+	    - PHP8 »Undefined variable«-fix
+	  </release>
 		<release version="1.9.4" date="2018-01-18" min="2.4" max="2.x.x">
 			- Sanitize the widget's content
 		</release>
